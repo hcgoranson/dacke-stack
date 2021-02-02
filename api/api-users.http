@@ -1,0 +1,15 @@
+GET http://localhost:8080/rest/user
+Accept: application/json
+
+###
+POST http://localhost:8080/rest/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "c7c3987d-df98-4351-8221-08ddf5bbec96",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@goranson.one"
+}
+###

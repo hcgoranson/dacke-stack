@@ -1,0 +1,13 @@
+GET http://localhost:8080/rest/todo
+Accept: application/json
+
+###
+POST http://localhost:8080/rest/todo
+Content-Type: application/json
+
+{
+  "title": "Something todo...",
+  "completed": false
+}
+
+###
